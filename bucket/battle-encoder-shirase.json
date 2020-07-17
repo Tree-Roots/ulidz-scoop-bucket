@@ -10,6 +10,10 @@
         "32bit": {
             "url": "http://mion.faireal.net/archive/BES/bes_1.7.7.zip#/dl.7z",
             "hash": "acba524d15053be3a3c60c04ec773986d4cee02c331a02f760508056209a3622"
+        },
+        "64bit": {
+            "url": "http://mion.faireal.net/archive/BES/bes_1.7.7.zip#/dl.7z",
+            "hash": "acba524d15053be3a3c60c04ec773986d4cee02c331a02f760508056209a3622"
         }
     },
     "bin": "BES.exe",
@@ -31,6 +35,9 @@
         "architecture": {
             "32bit": {
                 "url": "http://mion.faireal.net/archive/BES/bes_$version.zip#/dl.7z"
+            },
+            "64bit": {
+                "url": "http://mion.faireal.net/archive/BES/bes_1.7.7.zip#/dl.7z"
             }
         }
     }
