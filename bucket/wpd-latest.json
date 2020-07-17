@@ -1,0 +1,32 @@
+{
+    "version": "1.3.1577",
+    "description": "The read privacy dashboard for Windows.",
+    "homepage": "https://wpd.app/",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://wpd.app/get/latest.zip#/dl.7z",
+            "hash": "016e93a19d961e990a531b631be5967cfbc7dc83d71f5ab86cab115a26d230e2"
+        }
+    },
+    "bin": "WPD.exe",
+    "shortcuts": [
+        [
+            "WPD.exe",
+            "WPD"
+        ]
+    ],
+    "checkver": {
+        "url": "https://wpd.app/",
+        "regex": "Stable <strong>([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://wpd.app/get/latest.zip#/dl.7z"
+            }
+        }
+    }
+}
