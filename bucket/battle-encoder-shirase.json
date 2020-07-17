@@ -18,8 +18,8 @@
     "pre_install": [
         "Get-ChildItem -Path \"$dir\\BES_$version\\*\" -Recurse | Move-Item -Destination \"$dir\"",
         "Remove-Item \"$dir\\BES_$version\"",
-        "New-Item \"$dir\\bes.ini\" -ItemType file",
-        "New-Item \"$dir\\bes_sw.ini\" -ItemType file"
+        "if (!(test-path \"$dir\\bes.ini\")) { new-item -force \"$dir\\bes.ini\" -itemtype file | out-null }",
+        "if (!(test-path \"$dir\\bes_sw.ini\")) { new-item -force \"$dir\\bes_sw.ini\" -itemtype file | out-null }"
     ],
     "bin": "BES.exe",
     "shortcuts": [
