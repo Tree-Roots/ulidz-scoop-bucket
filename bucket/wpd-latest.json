@@ -18,10 +18,6 @@
             "WPD"
         ]
     ],
-    "persist": [
-        "bes.ini",
-        "bes_sw.ini"
-    ],
     "checkver": {
         "url": "https://wpd.app/",
         "regex": "Stable <strong>([\\d.]+)"
