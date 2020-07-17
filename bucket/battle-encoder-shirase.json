@@ -21,10 +21,6 @@
         "New-Item \"$dir\\bes.ini\" -ItemType file",
         "New-Item \"$dir\\bes_sw.ini\" -ItemType file"
     ],
-    "persist": [
-        "bes.ini",
-        "bes_sw.ini"
-    ],
     "bin": "BES.exe",
     "shortcuts": [
         [
