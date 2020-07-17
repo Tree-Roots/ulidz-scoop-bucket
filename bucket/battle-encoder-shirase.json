@@ -21,6 +21,10 @@
         "if (!(test-path \"$dir\\bes.ini\")) { new-item -force \"$dir\\bes.ini\" -itemtype file | out-null }",
         "if (!(test-path \"$dir\\bes_sw.ini\")) { new-item -force \"$dir\\bes_sw.ini\" -itemtype file | out-null }"
     ],
+    "persist": [
+        "bes.ini",
+        "bes_sw.ini"
+    ],
     "bin": "BES.exe",
     "shortcuts": [
         [
