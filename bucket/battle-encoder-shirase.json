@@ -16,6 +16,10 @@
             "hash": "acba524d15053be3a3c60c04ec773986d4cee02c331a02f760508056209a3622"
         }
     },
+    "pre_install": [
+        "Get-ChildItem -Path \"$dir\\BES_$version\\*\" -Recurse | Move-Item -Destination \"$dir\"",
+        "Remove-Item \"$dir\\BES_$version\""
+    ],
     "bin": "BES.exe",
     "shortcuts": [
         [
