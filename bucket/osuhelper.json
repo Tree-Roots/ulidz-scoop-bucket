@@ -1,5 +1,5 @@
 {
-    "version": "6.1.7",
+    "version": "2.2",
     "description": "Beatmap suggester for osu!",
     "homepage": "https://github.com/Tyrrrz/OsuHelper",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Tyrrrz/OsuHelper/releases/download/2.2/OsuHelper.zip#/dl.7z",
-            "hash": "170e50b5e95a945fac9172f2ab7f2b8015c486f91468a6311593ac33075073f2"
+            "hash": "56875863a0a277173a96331179d3d6fcc0bbf386cd1694974fc2553fa0c8df95"
         }
     },
     "pre_install": "if (!(test-path \"$dir\\Config.dat\")) { new-item -force \"$dir\\Config.dat\" -itemtype file | out-null }",
