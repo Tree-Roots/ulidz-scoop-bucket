@@ -1,0 +1,41 @@
+{
+    "version": "6.1.7",
+    "description": "Manga & Anime Downloader for Linux, Windows & MacOS",
+    "homepage": "https://github.com/manga-download/hakuneko",
+    "license": {
+        "identifier": "The Unlicense",
+        "url": "https://github.com/manga-download/hakuneko/blob/master/UNLICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/manga-download/hakuneko/releases/download/v6.1.7/hakuneko-desktop_6.1.7_windows-portable_amd64.zip#/dl.7z",
+            "hash": "170e50b5e95a945fac9172f2ab7f2b8015c486f91468a6311593ac33075073f2"
+        },
+        "32bit": {
+            "url": "https://github.com/manga-download/hakuneko/releases/download/v6.1.7/hakuneko-desktop_6.1.7_windows-portable_i386.zip#/dl.7z",
+            "hash": "c3c36ff824fba2258788f33ad2ed83b730443000cd554032c5433716162121d3"
+        }
+    },
+    "persist": [
+        "cache",
+        "userdata"
+    ],
+    "bin": "hakuneko.exe",
+    "shortcuts": [
+        [
+            "hakuneko.exe",
+            "HakuNeko"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/manga-download/hakuneko/releases/download/v$version/hakuneko-desktop_$version_windows-portable_amd64.zip#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/manga-download/hakuneko/releases/download/v$version/hakuneko-desktop_$version_windows-portable_i386.zip#/dl.7z"
+            }
+        }
+    }
+}
