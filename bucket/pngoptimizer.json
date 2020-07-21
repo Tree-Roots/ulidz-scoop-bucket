@@ -15,7 +15,11 @@
             "hash": "a13a9dc5fc9ade46006d954cbb9d0312b891a2487093823e9d4a408d6232ee59"
         }
     },
-    "pre_install": "if (!(test-path \"$dir\\PngOptimizer.ini\")) { new-item -force \"$dir\\PngOptimizer.ini\" -itemtype file | out-null }",
+    "pre_install": [
+        "if (!(test-path \"$dir\\PngOptimizer.ini\")) { new-item -force \"$dir\\PngOptimizer.ini\" -itemtype file | out-null }",
+        "Get-ChildItem -Path \"$dir\\PngOptimizer\\*\" -Recurse | Move-Item -Destination \"$dir\"",
+        "Remove-Item \"$dir\\PngOptimizer\\\""
+    ],
     "persist": "PngOptimizer.ini",
     "bin": "PngOptimizer.exe",
     "shortcuts": [
