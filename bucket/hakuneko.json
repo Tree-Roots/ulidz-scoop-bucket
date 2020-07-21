@@ -18,10 +18,7 @@
             "hash": "c3c36ff824fba2258788f33ad2ed83b730443000cd554032c5433716162121d3"
         }
     },
-    "persist": [
-        "cache",
-        "userdata"
-    ],
+    "persist": "userdata",
     "bin": "hakuneko.exe",
     "shortcuts": [
         [
