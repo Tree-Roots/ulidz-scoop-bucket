@@ -20,6 +20,10 @@
         "cache",
         "userdata"
     ],
+    "pre_install": [
+        "Get-ChildItem -Path \"$dir\\hakuneko-desktop_$version_windows-portable_*\\*\" -Recurse | Move-Item -Destination \"$dir\"",
+        "Remove-Item \"$dir\\hakuneko-desktop_$version_windows-portable_*\\\""
+    ],
     "bin": "hakuneko.exe",
     "shortcuts": [
         [
