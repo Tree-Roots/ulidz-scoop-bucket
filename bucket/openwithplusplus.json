@@ -1,0 +1,30 @@
+{
+    "version": "3.7.0.0",
+    "description": "Open with++ context menu shell extension",
+    "homepage": "https://github.com/stax76/OpenWithPlusPlus",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/stax76/OpenWithPlusPlus/blob/master/License.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/stax76/OpenWithPlusPlus/releases/download/3.7.0.0/OpenWithPP-3.7.0.0.7z#/dl.7z",
+            "hash": "11997e748153f7f357b80b2a2761c10b5c3e20ca3ac5a74b03b0d322237f1a58"
+        }
+    },
+    "bin": "OpenWithPPGUI.exe",
+    "shortcuts": [
+        [
+            "OpenWithPPGUI.exe",
+            "Open with++"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/stax76/OpenWithPlusPlus/releases/download/$version/OpenWithPP-$version.7z#/dl.7z"
+            }
+        }
+    }
+}
