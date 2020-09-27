@@ -1,5 +1,5 @@
 {
-    "version": "3.7.0.0",
+    "version": "3.8.0.0",
     "description": "Open with++ context menu shell extension",
     "homepage": "https://github.com/stax76/OpenWithPlusPlus",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stax76/OpenWithPlusPlus/releases/download/3.7.0.0/OpenWithPP-3.7.0.0.7z#/dl.7z",
-            "hash": "11997e748153f7f357b80b2a2761c10b5c3e20ca3ac5a74b03b0d322237f1a58"
+            "url": "https://github.com/stax76/OpenWithPlusPlus/releases/download/3.8.0.0/OpenWithPP-3.8.0.0.7z#/dl.7z",
+            "hash": "65f2821caa14831b989f4e5e676bcd84b26604362b86e6f95d332642bef3d89f"
         }
     },
     "bin": "OpenWithPPGUI.exe",
