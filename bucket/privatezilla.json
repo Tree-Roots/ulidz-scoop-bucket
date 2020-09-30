@@ -1,0 +1,24 @@
+{
+    "version": "0.41.10",
+    "description": "Performs a privacy & security check of Windows 10",
+    "homepage": "https://www.builtbybel.com/ms-apps/privatezilla",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/builtbybel/privatezilla/blob/master/LICENSE"
+    },
+    "url": "https://github.com/builtbybel/privatezilla/releases/download/0.41.10/privatezilla.zip#/dl.7z",
+            "hash": "df86646d155370946b689bd6612a7f0e9f31f1595a93db42982d3731a9f85e7b",
+    "bin": "Privatezilla.exe",
+    "shortcuts": [
+        [
+            "Privatezilla.exe",
+            "Privatezilla"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/builtbybel/privatezilla"
+    },
+    "autoupdate": {
+        "url": "https://github.com/builtbybel/privatezilla/releases/download/$version/privatezilla.zip#/dl.7z"
+    }
+}
