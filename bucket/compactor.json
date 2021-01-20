@@ -16,6 +16,10 @@
             "hash": "e8015a4b9bba01f8d8eb76fa4ee991cc6d6d21b1216b53934c56da460b4226f3"
         }
     },
+    "pre_install": [
+        "Get-ChildItem -Path \"$dir\\Compactor-$version\\*\" -Recurse | Move-Item -Destination \"$dir\"",
+        "Remove-Item \"$dir\\Compactor-$version\\\""
+    ],
     "bin": "Compactor.exe",
     "shortcuts": [
         [
