@@ -1,5 +1,5 @@
 {
-    "version": "1.7.7",
+    "version": "1.7.8",
     "description": "Controls Per-Process CPU Usage",
     "homepage": "http://mion.faireal.net/BES/",
     "license": {
@@ -7,12 +7,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "http://mion.faireal.net/archive/BES/bes_1.7.7.zip#/dl.7z",
-            "hash": "acba524d15053be3a3c60c04ec773986d4cee02c331a02f760508056209a3622"
+            "url": "http://mion.faireal.net/archive/BES/bes_1.7.8.zip#/dl.7z",
+            "hash": "7dc8353fd13619933e0dd967ba06a215dcee2ed6579c40073241ed62c399ef10"
         },
         "32bit": {
-            "url": "http://mion.faireal.net/archive/BES/bes_1.7.7.zip#/dl.7z",
-            "hash": "acba524d15053be3a3c60c04ec773986d4cee02c331a02f760508056209a3622"
+            "url": "http://mion.faireal.net/archive/BES/bes_1.7.8.zip#/dl.7z",
+            "hash": "7dc8353fd13619933e0dd967ba06a215dcee2ed6579c40073241ed62c399ef10"
         }
     },
     "pre_install": [
