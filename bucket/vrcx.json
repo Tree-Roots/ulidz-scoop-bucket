@@ -1,5 +1,5 @@
 {
-    "version": "2021.05.26",
+    "version": "2021.07.08",
     "description": "manage your friendship of VRChat",
     "homepage": "https://github.com/pypy-vrc/VRCX",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pypy-vrc/VRCX/releases/download/v2021.05.26/VRCX_20210526.zip#/dl.7z",
-            "hash": "fe4f830a135393662b67863a3bcca1746995ea9705606f41543799d51e153b2d"
+            "url": "https://github.com/pypy-vrc/VRCX/releases/download/v2021.07.08/VRCX_20210708.zip#/dl.7z",
+            "hash": "2eacae24cf4c940473f5c826527bfba758f818f25c0d5fc63dcaf145330f4531"
         }
     },
     "pre_install": [
