@@ -12,7 +12,7 @@
     },
     "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2021.08.10/yt-dlp.exe",
     "hash": "1f9073f331b9e58b752f7c172c8be0662141ca19620d50a8e003a40897eed758",
-    "bin": "youtube-dl.exe",
+    "bin": "yt-dlp.exe",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp.exe"
