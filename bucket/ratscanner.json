@@ -1,5 +1,5 @@
 {
-    "version": "2.8.6",
+    "version": "2.8.7",
     "description": "Rat Scanner is a open source tool for Escape from Tarkov.",
     "homepage": "https://github.com/RatScanner/RatScanner",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RatScanner/RatScanner/releases/download/v2.8.6/RatScanner.zip#/dl.7z",
-            "hash": "661349be02ae0d7c547bf2a7a212c356c8f0d139ae3f4347ab8dbd0bba9d2547"
+            "url": "https://github.com/RatScanner/RatScanner/releases/download/v2.8.7/RatScanner.zip#/dl.7z",
+            "hash": "1542ebd03f8e6170a5a49507a91c78ba462b6f108eeec8f6cbecd09754f0e891"
         }
     },
     "bin": "RatScanner.exe",
