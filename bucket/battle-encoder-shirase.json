@@ -1,7 +1,7 @@
 {
     "version": "1.7.8",
     "description": "Controls Per-Process CPU Usage",
-    "homepage": "http://mion.faireal.net/BES/",
+    "homepage": "https://mion.yosei.fi/BES/",
     "license": {
         "identifier": "GPL-3.0-or-later"
     },
