@@ -7,11 +7,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "http://mion.faireal.net/archive/BES/bes_1.7.8.zip#/dl.7z",
+            "url": "https://mion.yosei.fi/archive/BES/bes_1.7.8.zip#/dl.7z",
             "hash": "7dc8353fd13619933e0dd967ba06a215dcee2ed6579c40073241ed62c399ef10"
         },
         "32bit": {
-            "url": "http://mion.faireal.net/archive/BES/bes_1.7.8.zip#/dl.7z",
+            "url": "https://mion.yosei.fi/archive/BES/bes_1.7.8.zip#/dl.7z",
             "hash": "7dc8353fd13619933e0dd967ba06a215dcee2ed6579c40073241ed62c399ef10"
         }
     },
@@ -33,16 +33,16 @@
         ]
     ],
     "checkver": {
-        "url": "http://mion.faireal.net/BES/",
+        "url": "https://mion.yosei.fi/BES/",
         "regex": "Version ([\\d.]+) \\(stable\\)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://mion.faireal.net/archive/BES/bes_$version.zip#/dl.7z"
+                "url": "https://mion.yosei.fi/archive/BES/bes_$version.zip#/dl.7z"
             },
             "32bit": {
-                "url": "http://mion.faireal.net/archive/BES/bes_$version.zip#/dl.7z"
+                "url": "https://mion.yosei.fi/archive/BES/bes_$version.zip#/dl.7z"
             }
         }
     }
