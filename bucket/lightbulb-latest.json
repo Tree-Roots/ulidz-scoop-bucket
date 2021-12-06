@@ -1,5 +1,5 @@
 {
-    "version": "2.3.3",
+    "version": "2.4",
     "description": "Reduces eye strain by adjusting gamma based on the current time",
     "homepage": "https://github.com/Tyrrrz/LightBulb",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Tyrrrz/LightBulb/releases/download/2.3.3/LightBulb.zip#/dl.7z",
-            "hash": "e99f115946b6a000148f60cc6cbeb17007fd5b22680b4878c202b87501610739"
+            "url": "https://github.com/Tyrrrz/LightBulb/releases/download/2.4/LightBulb.zip#/dl.7z",
+            "hash": "b66642a5419af3a1fff520d1f40131ccf8264bcd60580802c4da5e84eee29ed9"
         }
     },
     "pre_install": "if (!(test-path \"$dir\\Settings.json\")) { new-item -force \"$dir\\Settings.json\" -itemtype file | out-null }",
