@@ -1,13 +1,13 @@
 {
-    "version": "2.1",
+    "version": "2.0",
     "description": "Hardentools simply reduces the attack surface on Microsoft Windows computers by disabling low-hanging fruit risky features.",
     "homepage": "https://github.com/securitywithoutborders/hardentools",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/securitywithoutborders/hardentools/blob/master/LICENSE.txt"
     },
-    "url": "https://github.com/securitywithoutborders/hardentools/releases/download/v2.1/hardentools.exe",
-    "hash": "4b3387a6f9fac219e5dca279b8c3e3ba9a518ee244b74ba24b2152142757aeb5",
+    "url": "https://github.com/securitywithoutborders/hardentools/releases/download/v2.0/hardentools.exe",
+    "hash": "2b44b52c3a3b669de81e0ae57e4595f7d632304a91b9ff79ae82c2b70ab03f7a",
     "extract_dir": "Hardentools",
     "bin": "hardentools.exe",
     "shortcuts": [
