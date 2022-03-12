@@ -1,0 +1,31 @@
+{
+    "version": "1.6.0",
+    "description": "kernel mode mouse accel",
+    "homepage": "https://github.com/a1xd/rawaccel",
+    "license": "MIT",
+    "url": "https://github.com/a1xd/rawaccel/releases/download/v1.6.0/RawAccel_v1.6.0.zip#/dl.7z",
+    "hash": "e4e3489ec0cd7f8f349883b15052e69e6aebeb8393460dbd7b04991c27d2d388",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "RawAccel"
+        }
+    },
+    "shortcuts": [
+        [
+            "installer.exe",
+            "Raw Accel Installer"
+        ],
+        [
+            "uninstaller.exe",
+            "Raw Accel Uninstaller"
+        ],
+        [
+            "rawaccel.exe",
+            "Raw Accel"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/a1xd/rawaccel/releases/download/v$version/RawAccel_v$version.zip#/dl.7z"
+    }
+}
