@@ -25,6 +25,9 @@
         ]
     ],
     "checkver": "github",
+    "persist": [
+        "settings.json"
+    ],
     "autoupdate": {
         "url": "https://github.com/a1xd/rawaccel/releases/download/v$version/RawAccel_v$version.zip#/dl.7z"
     }
