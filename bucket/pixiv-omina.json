@@ -1,5 +1,6 @@
 {
     "version": "0.9.1",
+    "description": "Pixiv Omina is a software for downloading artworks and comics from Pixiv and Pixiv Comic",
     "homepage": "https://github.com/leoding86/pixiv-omina",
     "license": "MPL-2.0",
     "extract_dir": "$PLUGINSDIR",
