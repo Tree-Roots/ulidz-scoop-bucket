@@ -1,0 +1,39 @@
+{
+    "version": "1.10.0",
+    "description": "🎩 Appear offline for the League of Legends client.",
+    "homepage": "https://github.com/molenzwiebel/Deceive",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/molenzwiebel/Deceive/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/molenzwiebel/Deceive/releases/download/v1.10.0/Deceive.exe",
+            "hash": "07bde0ab31bb4045badc24e2e1ade276fb793f4146f01d00cccc71155f257133"
+        }
+    },
+    "shortcuts": [
+        [
+            "Deceive.exe",
+            "League of Legends (Deceive)"
+        ],
+        [
+            "Deceive.exe",
+            "VALORANT (Deceive)",
+            "valorant"
+        ],
+        [
+            "Deceive.exe",
+            "Legends of Runeterra (Deceive)",
+            "lor"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/molenzwiebel/Deceive/releases/download/v$version/Deceive.exe"
+            }
+        }
+    }
+}
