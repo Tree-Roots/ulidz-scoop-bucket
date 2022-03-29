@@ -11,6 +11,7 @@
             "hash": "0485b7f526a81ac14ea9a8317aa6600daf93ed0bd78423aa17500852c906a375"
         }
     },
+    "extract_dir": "lolcustomskin-tools-windows",
     "bin": [
         "lcs-manager.exe",
         "lcs-wadextract.exe",
