@@ -1,16 +1,14 @@
 {
-    "version": "2022-01-27-6db45be",
+    "version": "2022-03-26-f90b775",
     "description": "Set of simple CLI tools to help mod league.",
     "homepage": "https://github.com/LoL-Fantome/lolcustomskin-tools",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LoL-Fantome/lolcustomskin-tools/releases/download/2022-01-27-6db45be/lolcustomskin-tools-windows.zip#/dl.7z",
-            "hash": "0485b7f526a81ac14ea9a8317aa6600daf93ed0bd78423aa17500852c906a375"
+            "url": "https://github.com/LoL-Fantome/lolcustomskin-tools/releases/download/2022-03-26-f90b775/cslol-manager-windows.zip#/dl.7z",
+            "hash": "0019c8938b9710f2e3b77d04a74d3e863e51bfeeb12d7799797cdcbf75bdda80"
         }
     },
-    "pre_install": [
-        "if (!(test-path \"$dir\\config.ini\")) { new-item -force \"$dir\\config.ini\" -itemtype file | out-null }"
-    ],
+    "pre_install": "if (!(test-path \"$dir\\config.ini\")) { new-item -force \"$dir\\config.ini\" -itemtype file | out-null }",
     "extract_dir": "lolcustomskin-tools-windows",
     "persist": [
         "installed",
@@ -18,26 +16,22 @@
         "config.ini"
     ],
     "bin": [
-        "lcs-manager.exe",
-        "lcs-wadextract.exe",
-        "lcs-wadmake.exe",
-        "lcs-wxyextract.exe",
-        "lolcustomskin.exe"
+        "cslol-manager.exe"
     ],
     "shortcuts": [
         [
-            "lcs-manager.exe",
+            "cslol-manager.exe",
             "LCS-manager"
         ]
     ],
     "checkver": {
         "url": "https://github.com/LoL-Fantome/lolcustomskin-tools/releases/latest",
-        "regex": "(?<version>[\\d\\w.-]+)/lolcustomskin-tools-windows.zip"
+        "regex": "(?<version>[\\d\\w.-]+)/cslol-manager-windows.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/LoL-Fantome/lolcustomskin-tools/releases/download/$version/lolcustomskin-tools-windows.zip#/dl.7z"
+                "url": "https://github.com/LoL-Fantome/lolcustomskin-tools/releases/download/$version/cslol-manager-windows.zip#/dl.7z"
             }
         }
     }
