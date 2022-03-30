@@ -1,11 +1,11 @@
 {
-    "version": "2022-03-26-f90b775",
+    "version": "2022-03-30-649dd5a",
     "description": "Set of simple CLI tools to help mod league.",
     "homepage": "https://github.com/LoL-Fantome/lolcustomskin-tools",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LoL-Fantome/lolcustomskin-tools/releases/download/2022-03-26-f90b775/cslol-manager-windows.zip#/dl.7z",
-            "hash": "0019c8938b9710f2e3b77d04a74d3e863e51bfeeb12d7799797cdcbf75bdda80"
+            "url": "https://github.com/LoL-Fantome/lolcustomskin-tools/releases/download/2022-03-30-649dd5a/cslol-manager-windows.zip#/dl.7z",
+            "hash": "f4f2df890e5bb92718c570f3b96a281c04d11c820463160bf8925eb616fcd749"
         }
     },
     "pre_install": "if (!(test-path \"$dir\\config.ini\")) { new-item -force \"$dir\\config.ini\" -itemtype file | out-null }",
@@ -15,9 +15,7 @@
         "profiles",
         "config.ini"
     ],
-    "bin": [
-        "cslol-manager.exe"
-    ],
+    "bin": "cslol-manager.exe",
     "shortcuts": [
         [
             "cslol-manager.exe",
