@@ -9,7 +9,7 @@
         }
     },
     "pre_install": "if (!(test-path \"$dir\\config.ini\")) { new-item -force \"$dir\\config.ini\" -itemtype file | out-null }",
-    "extract_dir": "lolcustomskin-tools-windows",
+    "extract_dir": "cslol-manager",
     "persist": [
         "installed",
         "profiles",
