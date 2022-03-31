@@ -16,7 +16,7 @@
     "shortcuts": [
         [
             "valorant-rpc.exe",
-            "VALORANT RPC"
+            "VALORANT-rpc"
         ]
     ],
     "checkver": "github",
