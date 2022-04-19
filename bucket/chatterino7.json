@@ -1,5 +1,5 @@
 {
-    "version": "7.3.4",
+    "version": "7.3.5",
     "description": "Twitch chat client",
     "homepage": "https://7tv.app",
     "license": "MIT",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SevenTV/chatterino7/releases/download/v7.3.4/Chatterino.Portable.zip",
-            "hash": "fa5f6afbfa34629acc1489a993df2794814217e4809fbaa746bccf79e9296c5c"
+            "url": "https://github.com/SevenTV/chatterino7/releases/download/v7.3.5/Chatterino7.Portable.zip",
+            "hash": "f14f00a794865af3cfee2123eea899b674f30a25f46a832cd1cdeb0976dc15d4"
         }
     },
     "extract_dir": "Chatterino7",
@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SevenTV/chatterino7/releases/download/v$version/Chatterino.Portable.zip"
+                "url": "https://github.com/SevenTV/chatterino7/releases/download/v$version/Chatterino7.Portable.zip"
             }
         }
     }
