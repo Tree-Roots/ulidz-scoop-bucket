@@ -1,13 +1,13 @@
 {
-    "version": "0.17",
+    "version": "0.18",
     "description": "Twitch Chat Client written in Java",
     "homepage": "https://github.com/chatty/chatty",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/chatty/chatty/blob/master/APACHE_LICENSE"
     },
-    "url": "https://github.com/chatty/chatty/releases/download/v0.17/Chatty_0.17_win_standalone.zip#/dl.7z",
-    "hash": "f84f29110cc809733cd20ebb61257854e01540182c218dc66b5c0fad73811d86",
+    "url": "https://github.com/chatty/chatty/releases/download/v0.18/Chatty_0.18_win_standalone.zip#/dl.7z",
+    "hash": "f18def63719b835f2822511e4979e5bd519167c8dab0cb71ed08ef5941d3762e",
     "bin": "Chatty.exe",
     "shortcuts": [
         [
