@@ -1,5 +1,5 @@
 {
-    "version": "1.11.0",
+    "version": "1.10.0",
     "description": "🎩 Appear offline for the League of Legends client.",
     "homepage": "https://github.com/molenzwiebel/Deceive",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/molenzwiebel/Deceive/releases/download/v1.11.0/Deceive.exe",
-            "hash": "6b5efbfbc43e16c87649890ce27e91cf5e332ab20cb28229b1ce76b90a2a92ed"
+            "url": "https://github.com/molenzwiebel/Deceive/releases/download/v1.10.0/Deceive.exe",
+            "hash": "07bde0ab31bb4045badc24e2e1ade276fb793f4146f01d00cccc71155f257133"
         }
     },
     "shortcuts": [
