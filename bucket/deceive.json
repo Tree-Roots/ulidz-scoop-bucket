@@ -15,17 +15,7 @@
     "shortcuts": [
         [
             "Deceive.exe",
-            "League of Legends (Deceive)"
-        ],
-        [
-            "Deceive.exe",
-            "VALORANT (Deceive)",
-            "valorant"
-        ],
-        [
-            "Deceive.exe",
-            "Legends of Runeterra (Deceive)",
-            "lor"
+            "Deceive"
         ]
     ],
     "checkver": "github",
