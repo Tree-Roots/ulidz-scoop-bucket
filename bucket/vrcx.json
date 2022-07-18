@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/pypy-vrc/VRCX/releases/download/v2022.07.13/VRCX_20220713.zip#/dl.7z",
-            "hash": "f465cf6b78bad714005056058b889e49ca98b7e2b4a7fda6ab364e28eeb6d9ef"
+            "hash": "de70fbc104892e2a87c8994aba8f585b6e27624ec03ee701d55efe5c7c4b630c"
         }
     },
     "pre_install": [
